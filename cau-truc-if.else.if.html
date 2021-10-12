@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pham Duc Thang</title>
+</head>
+<body>
+<Script>
+    let userName = prompt("Who's there?", '');
+    if (userName == 'Admin') {
+        alert("Nhap mat khau di");
+    } else if (userName == null) {
+        alert('Canceled');
+    } else {
+        alert("To khong biet cau");
+    }
+    let pass = prompt('Password?', '');
+    if (pass == 'TheMaster') {
+        alert('Hello Bro!');
+    } else if (pass == null) {
+        alert('Canceled.');
+    } else {
+        alert('Sai mat khau roi');
+    }
+</Script>
+</body>
+</html>
